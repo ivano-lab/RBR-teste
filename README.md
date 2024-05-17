@@ -1,3 +1,62 @@
+## README.md - Dashboard de Funcionários
+
+### Introdução
+
+Este repositório contém o código-fonte de um dashboard administrativo simples para gerenciar uma lista de funcionários. O dashboard permite a criação, leitura, atualização e exclusão de registros de funcionários.
+
+### Tecnologias Utilizadas
+
+* **Frontend:**
+    * React com Next.js
+    * Chakra UI para estilização e componentes de UI
+    * TypeScript para segurança de tipos
+* **Backend:**
+    * Node.js com Express.js
+    * MongoDB (Mongoose) para banco de dados
+
+### Funcionalidades
+
+* **Página Inicial do Dashboard:**
+    * Exibe uma tabela de funcionários com colunas para nome, cargo, departamento e ações (editar/excluir).
+    * Inclui um botão para adicionar um novo funcionário.
+    * Implementa funcionalidade de ordenação e busca na lista de funcionários.
+* **Página de Adicionar Funcionário:**
+    * Fornece um formulário para adicionar um novo funcionário com campos para nome, cargo, departamento e data de admissão.
+    * Valida os campos do formulário antes de enviar.
+* **Página de Editar Funcionário:**
+    * Oferece um formulário para editar os detalhes de um funcionário existente.
+    * Preenche o formulário com os detalhes atuais do funcionário.
+    * Valida os campos do formulário antes de enviar.
+* **API do Backend:**
+    * Implementa endpoints RESTful para operações CRUD:
+        * `GET /api/employees` - Recupera todos os funcionários.
+        * `GET /api/employees/:id` - Recupera um único funcionário pelo ID.
+        * `POST /api/employees` - Cria um novo funcionário.
+        * `PUT /api/employees/:id` - Atualiza um funcionário pelo ID.
+        * `DELETE /api/employees/:id` - Exclui um funcionário pelo ID.
+
+### Detalhes Técnicos
+
+* **Frontend:**
+    * Utiliza componentes do Chakra UI para elementos de formulário, botões, tabelas e layout.
+    * Garante que a aplicação seja responsiva.
+* **Backend:**
+    * Emprega Mongoose para interagir com o MongoDB.
+    * Valida os dados antes de salvar no banco de dados.
+    * Trata erros de forma adequada e retorna os códigos de status HTTP apropriados.
+* **Geral:**
+    * O código é escrito de forma limpa, legível e bem documentado.
+    * O Git é usado para controle de versão.
+    * O projeto está disponível em um repositório público no GitHub.
+    * Um arquivo README.md inclui instruções sobre como configurar e executar a aplicação.
+
+### Licença
+
+Este projeto está licenciado sob a licença [MIT](https://opensource.org/licenses/MIT).
+
+
+### Project Specifics | Test Requirements
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
