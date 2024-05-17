@@ -55,7 +55,7 @@ Este repositório contém o código-fonte de um dashboard administrativo simples
 Este projeto está licenciado sob a licença [MIT](https://opensource.org/licenses/MIT).
 
 
-### Project Specifics | Test Requirements
+## Project Specifics | Test Requirements
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
